@@ -22,6 +22,8 @@ BuildRequires:  pkgconfig(Qt6QmlAssetDownloader)
 BuildRequires:  pkgconfig(Qt6QmlCore)
 BuildRequires:  pkgconfig(Qt6QmlNetwork)
 BuildRequires:  appstream
+# cmake(Kwin) did not pull the non-devel package below
+BuildRequires:  plasma6-kwin
 BuildRequires:  vulkan-headers
 BuildRequires:  qt6-qtbase-theme-gtk3
 
